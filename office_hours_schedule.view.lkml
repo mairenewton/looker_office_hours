@@ -220,6 +220,9 @@ view: office_hours_schedule {
         ,'Building Impactful Dashboards' as topic
         ,'yes' as hands_on
        ;;
+      datagroup_trigger: office_hours
+      distribution: "city"
+      sortkeys: ["session_start"]
   }
 
   measure: count {

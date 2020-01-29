@@ -6,6 +6,7 @@ include: "*view.lkml"                   # include all views in this project
 
 datagroup: office_hours {
   max_cache_age: "1000000 hours"
+  sql_trigger: 1 ;;
 }
 
 explore: office_hours_schedule {
