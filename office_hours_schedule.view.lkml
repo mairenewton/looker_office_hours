@@ -271,7 +271,7 @@ view: office_hours_schedule {
 
   dimension: hands_on {
     type: yesno
-    sql: ${TABLE}.hands_on = "yes" ;;
+    sql: ${TABLE}.hands_on = 'yes' ;;
   }
 
   set: detail {
