@@ -232,13 +232,13 @@ view: office_hours_schedule {
 
   dimension_group: session_start {
     type: time
-    timeframes: [date, day_of_week, month_name, time]
+    timeframes: [date, day_of_week, time]
     sql: ${TABLE}.session_start ;;
   }
 
   dimension_group: session_end {
     type: time
-    timeframes: [date, day_of_week, month_name, time]
+    timeframes: [date, day_of_week, time]
     sql: ${TABLE}.session_end ;;
   }
 
